@@ -46,10 +46,10 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Bem-vindo(a) ao meu Portifólio</span>
-                        <h1>{`Olá, eu sou uma dev`}<span className="wrap">{text}</span></h1>
-                        <p>Estudante de Engenharia da Computação no IFTM - Uberaba Parque Tecnológico. Durante minha trajetória acadêmica, fui membra do PET-TEC e tive a oportunidade de desenvolver minhas habilidades em trabalho em equipe e ajudar outros estudantes. Além disso, participei como voluntária no projeto de extensão Vestibulinho, lecionando aulas de matemática, e como bolsista no projeto de ensino NAPNE, auxiliando estudantes com necessidades específicas.
+                        <h1>{`Olá, eu sou a Naarah`}<br></br><span className="wrap">{text}</span></h1>
+                        <p>Estudo de Engenharia da Computação no IFTM - Uberaba Parque Tecnológico. Durante minha trajetória acadêmica, fui membra do PET-TEC e tive a oportunidade de desenvolver minhas habilidades em trabalho em equipe e ajudar outros estudantes. Além disso, participei como voluntária no projeto de extensão Vestibulinho, lecionando aulas de matemática, e como bolsista no projeto de ensino NAPNE, auxiliando estudantes com necessidades específicas.
                         <br></br>Busco sempre me atualizar e aprimorar meus conhecimentos na área de tecnologia, que é minha grande paixão. Sou uma pessoa proativa e adoro desafios, sempre buscando soluções criativas para os problemas. Se você está procurando alguém com vontade de aprender e crescer, aqui estou!</p>
-                        <button onClick={() => console.log('connect')}>Vamos conversar</button>
+                        <button onClick={() => console.log('connect')}>Vamos conversar <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img style={{borderRadius: "50%"}} src={headerImg} alt="Header Img" />
